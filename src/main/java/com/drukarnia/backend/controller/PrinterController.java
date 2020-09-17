@@ -21,7 +21,7 @@ public class PrinterController
         this.printerService = printerService;
     }
 
-    @GetMapping("/all")
+    @GetMapping()
     public ResponseEntity<Iterable<Printer>> getAll()
     {
         return new ResponseEntity<>(printerService.findAllPrinters(), HttpStatus.OK);

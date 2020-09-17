@@ -31,7 +31,7 @@ public class Filament
     @NotBlank
     private String Brand;
 
-    private int type; //1 - PLA, 2 - ABS, 3 - PET-G, 4 - Nylon,
+    private String type;
 
     private boolean flexible;
 
